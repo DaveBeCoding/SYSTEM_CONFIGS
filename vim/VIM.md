@@ -10,3 +10,4 @@
 
 #text object and motions -> combine with commands ELITE
 #dot command 
+#:earlier [2min] 

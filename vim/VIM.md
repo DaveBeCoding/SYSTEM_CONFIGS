@@ -5,3 +5,5 @@
 <h1>Visual mode -> highlight portion of the file to manipulate at onccei</h1>
 
 <h1>Ex mode -> command mode</h1>
+
+<h1> hjkl -> left, up, down, right </h1>

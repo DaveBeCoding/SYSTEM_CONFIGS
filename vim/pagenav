@@ -23,7 +23,7 @@ TOP 9
 
 COPY == YANK   PASTE == PUT 
 
-yy or y        p or P
+yy or y        p <below current line> or P <Above current line>
 
 Copy [N] lines under cursor, enter into normal mode -> [N]yy
 

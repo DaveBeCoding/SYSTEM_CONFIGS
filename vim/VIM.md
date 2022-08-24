@@ -8,5 +8,5 @@
 
 <h1> hjkl -> left, up, down, right </h1>
 
-#text object and motions
+#text object and motions -> combine with commands ELITE
 #dot command 

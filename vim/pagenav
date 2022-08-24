@@ -1,4 +1,4 @@
-TOP 8
+TOP 9
 
 1. $ -> MOVE TO THE END OF THE LINE
 
@@ -15,6 +15,8 @@ TOP 8
 7. G -> JUMP TO END OF FILE
 
 8. g; -> JUMP TO PLACE OF LAST EDIT
+
+9. x -> Delete chars in a line
 
 
 						COPY AND PASTE

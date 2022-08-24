@@ -1,0 +1,102 @@
+TOP 8
+
+1. $ -> MOVE TO THE END OF THE LINE
+
+2. o -> MOVE TO THE BEGINNING OF THE LINE
+
+3. H -> JUMP TO THE TOP OF THE SCREEN 
+
+4. L -> JUMP TO THE BOTTOM OF THE SCREEN 
+
+5. H -> JUMP TO THE TOP OF THE SCREEN 
+
+6. L -> JUMP TO THE BOTTOM OF THE SCREEN 
+
+7. G -> JUMP TO END OF FILE
+
+8. g; -> JUMP TO PLACE OF LAST EDIT
+
+
+						COPY AND PASTE
+
+COPY == YANK   PASTE == PUT 
+
+yy or y        p or P
+
+Copy [N] lines under cursor, enter into normal mode -> [N]yy
+
+Copy specific section of lines -> y[N]-1k == y1k
+
+
+
+						UNDO
+            Esc/Normal mode -> u | :u :un
+
+
+-----------------------------------------
+				GENERAL 
+-----------------------------------------
+
+w -> Move forward to beginning of a word
+
+" [N} = int
+
+[N]w -> move N word(s) forward
+
+W -> move forward a word {non-whitespace, char}
+
+b -> move back a word
+
+[N]b -> move back N word(s)
+
+$ -> MOVE TO THE END OF THE LINE
+
+o -> MOVE TO THE BEGINNING OF THE LINE
+
+^ -> first nonblank character of line 
+
+) -> Jump forward one sentence
+
+( -> Jump backward one sentence 
+
+} -> Jump forward one paragraph
+
+{ -> Jump Backwards one paragraph
+
+j -> Jump forward one line 
+
+[N]j -> Jump forward N line(s)
+
+k -> Jump backwards one line
+
+[N]k -> Jump backwards N lines
+
+H -> JUMP TO THE TOP OF THE SCREEN 
+
+M -> Jump to the middle of the screen 
+
+L -> JUMP TO THE BOTTOM OF THE SCREEN 
+
+N<PageUp> | N<ctrl-B> -> move N pages up
+
+N<PageDown> | N<ctrl-F> -> move N pages down
+
+G -> JUMP TO END OF FILE
+
+g -> Jump x screen lines in direction (up/down)
+
+1G -> JUMO TO BEGINNING OF FILE == gg
+
+[N]G -> JUMP TO LINE N
+
+" -> RETURN TO THE LINE WHERE THE CURSOR WAS LAST AT BEFORE JUMP
+
+'. -> Jump to the last changed line
+
+% -> Jump to the corresponding item e.g. from an open brace to its matching closing brace. <Moving to matching bracses>
+
+| -> Jump to first column of the current line
+
+[N]| -> Jump tot he N column of the current line
+
+g; -> JUMP TO PLACE OF LAST EDIT

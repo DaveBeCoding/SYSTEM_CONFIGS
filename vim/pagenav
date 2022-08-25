@@ -35,9 +35,43 @@ Copy specific section of lines -> y[N]-1k == y1k
             Esc/Normal mode -> u | :u :un
 
 
------------------------------------------
+
+						TEMINAL/WINDOW
+
+:ter -> shell 
+
+CTRL-W -> Buffer/Term
+
+------------------------------------------
+
+:help <topic>
+
+:help :split
+
+:help :terminal
+
+:h <terminal-use>
+
+:h <terminal-typing>
+
+:h <terminal-input>
+
+:help CTRL-\_CTRL-N
+
+:shell
+
+CTRL-Z || :stop
+
+:ter (nvim users) != :shell (depricated in nvim)
+
+------------------------------------------
+*
+*
+*
+*
+------------------------------------------
 				GENERAL 
------------------------------------------
+------------------------------------------
 
 w -> Move forward to beginning of a word
 

@@ -32,7 +32,7 @@ Copy specific section of lines -> y[N]-1k == y1k
 
 
 						UNDO
-            Esc/Normal mode -> u | :u :un
+            [Normal mode] -> u | :u :un
 
 
 
@@ -136,3 +136,25 @@ g -> Jump x screen lines in direction (up/down)
 [N]| -> Jump tot he N column of the current line
 
 g; -> JUMP TO PLACE OF LAST EDIT
+
+*
+*
+*
+*
+*
+------------------------------------------
+				MODE(S)
+------------------------------------------
+
+
+[visual]
+
+CTRL-V 
+
+arrow/<j><k> -> select line(s)
+
+shift + i
+
+[normal mode] -> once back in NM ones changes will be made
+
+pressing <.> after visual block operation will repeat that operation where the cursor is -> ELITE 

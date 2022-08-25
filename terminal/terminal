@@ -1,0 +1,80 @@
+
+CTRL-A -> move to start of line 
+
+CTRL-E -> move to end of line 
+
+CTRL-K -> kill forward to end of line 
+
+CTRL-U -> kill the line from the beginning to this point
+
+CTRL-R -> Search backwards
+
+CTRL-P -> move to prev line
+
+CTRL-N -> next line 
+
+CTRL-Y -> undo last word/line deleted or killed
+
+CTRL-L -> clears the screen and puts current line on top
+
+CTRL-V -> quoted insert
+
+
+
+*************************************
+
+				YANK <TEMPLATES>
+
+
+CTRL-
+CTRL-
+CTRL-
+CTRL-
+CTRL-
+CTRL-
+CTRL-
+CTRL-
+CTRL-
+CTRL-
+CTRL-
+CTRL-
+CTRL-
+CTRL-
+CTRL-
+CTRL-
+
+ESC ->   
+ESC ->  
+ESC ->  
+ESC ->  
+ESC ->  
+ESC ->  
+ESC ->  
+ESC ->  
+ESC ->  
+
+
+
+
+
+*************************************
+
+ESC-C -> capitalize this word after this point 
+
+ESC-U -> make the letters in this word all upppercase after this point
+
+ESC-L -> make the letters in this word all lowercase
+
+*************************************
+
+ECS-TAB -> Attempt the completion from previos commands in history list
+
+ECS-< -> first line in history 
+
+ESC-> -> last line in history 
+
+ESC-? -> list all possible completions 
+
+ESC-/ -> attempt the filename completion
+
+

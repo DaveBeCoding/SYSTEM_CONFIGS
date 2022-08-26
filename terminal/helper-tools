@@ -5,6 +5,12 @@ cmp --silent file1 file2 && echo '### SUCCESS: Files Are Identical! ###' || echo
 sha3sum [file...]
 
 
+ mdv -> terminal markdown viewer
+
+
+
+
+
 				*******CREATE TINY URL'S FOR SCRIPTS*******
 
 curl 'http://tinyurl.com/api-create.php?url=http://example.com/'

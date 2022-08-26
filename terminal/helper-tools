@@ -1,14 +1,8 @@
-
 find ~/Documents/src -type f -iname "*.py"
 
 cmp --silent file1 file2 && echo '### SUCCESS: Files Are Identical! ###' || echo '### WARNING: Files Are Different! ###'
 
-
-
-
-
-
-
+sha3sum [file...]
 
 
 				*******CREATE TINY URL'S FOR SCRIPTS*******

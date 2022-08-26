@@ -32,7 +32,14 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'maksimr/vim-jsbeautify'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-
+Plug 'preservim/nerdtree', { 'on': 'NERDTreeToggle' }
+Plug 'python-mode/python-mode'
 call plug#end()
 
-map <c-f> :call JsBeautify()<cr>
+map <c-j> :call JsBeautify()<cr>
+
+" Nerd tree
+nnoremap <leader>n :NERDTreeFocus<CR>
+nnoremap <C-n> :NERDTree<CR>
+nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <C-f> :NERDTreeFind<CR>

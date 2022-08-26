@@ -26,3 +26,20 @@ set title
 " color evening
 " set background=dark
 " https://linuxhint.com/important_vim_settings/
+
+" PLUGIN(s) -> :PlugInstall
+call plug#begin('~/.vim/plugged')
+
+"repo
+Plug 'maksimr/vim-jsbeautify' 
+
+
+call plug#end()
+
+
+
+
+
+
+
+

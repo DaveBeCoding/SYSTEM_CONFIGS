@@ -33,7 +33,8 @@ call plug#begin('~/.vim/plugged')
 Plug 'maksimr/vim-jsbeautify'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'preservim/nerdtree', { 'on': 'NERDTreeToggle' }
-Plug 'python-mode/python-mode'
+" Plug 'python-mode/python-mode'
+Plug 'ets-labs/python-vimrc'
 call plug#end()
 
 map <c-j> :call JsBeautify()<cr>
@@ -53,3 +54,14 @@ inoremap <expr><S-TAB> coc#pum#visible() ? coc#pum#prev(1) : "\<C-h>"
 
 " set pymode to python3
 let g:pymode_python = 'python3'
+
+
+
+" highlighting searchs
+set incsearch
+set nohlsearch
+nnoremap <c-h> :set hlsearch!<cr>
+
+" window movement
+set nocompatible 
+set wildmenu

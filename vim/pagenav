@@ -36,6 +36,15 @@ Copy specific section of lines -> y[N]-1k == y1k
 
 
 
+                       FILES
+
+:ls -> view list of open files
+
+:b <file> -> switch
+
+:b# -> togle file(s)
+
+
 						TEMINAL/WINDOW
 
 :ter -> shell 
@@ -137,6 +146,8 @@ g -> Jump x screen lines in direction (up/down)
 
 g; -> JUMP TO PLACE OF LAST EDIT
 
+:[line number] -> move to specific line/location
+
 *
 *
 *
@@ -158,3 +169,71 @@ shift + i
 [normal mode] -> once back in NM ones changes will be made
 
 pressing <.> after visual block operation will repeat that operation where the cursor is -> ELITE 
+
+
+
+------------------------------------------
+				
+			EDIT 
+
+------------------------------------------
+
+c -> CHANGE
+
+d -> DELETE
+
+a -> APPEND
+
+r -> REPLACE
+
+I -> BEGINNING OF LINE
+
+A -> END OF LINE
+
+o -> INSERT BELOW
+
+O -> INSERT ABOVE
+
+ci" -> CHANGE EVERYTHING IN DOUBLE QUOTES "
+
+ciw -> CHANGE EVERYTHING INSIDE OF WORD
+
+cit -> CHANGE EVERYTHING INSIDE OF TAG
+
+ca" -> REMOVE DOUBLE QUOTES AND EVERYTHING INSIDE THEM 
+
+c% -> DELETE UP TO A POINT EX. FOO(GOO()) WILL LEAVE FOO()
+
+
+------------------------------------------
+				
+			WINDOWS <files>
+
+------------------------------------------
+
+:e [tab]
+
+:b [file...] -> :h buffers
+
+:bn -> next
+
+:bp 
+
+:argadd **/*.c<TAB> -> **/*.[ext] 
+
+:set path+=** -> [here/*] .... :find name.ext <ENTER> -> switched
+
+:filter '.*md' oldfiles -> all recent .md changes made 
+
+**:h wildmode**
+
+:set wildmode=longest:full,full -> <TAB>
+
+:set wildignorecase 
+
+:set wildignore=[ignore...] -> ex :set wildignore=\*.git/\*
+
+***
+:split [file..] -> <c-w><c-s> && <c-w><c-v> -> <y-plane>
+
+:vsplit [file...] -> <x-plane>

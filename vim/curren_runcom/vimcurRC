@@ -34,6 +34,7 @@ Plug 'maksimr/vim-jsbeautify'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'preservim/nerdtree', { 'on': 'NERDTreeToggle' }
 " Plug 'python-mode/python-mode'
+Plug 'Vimjas/vim-python-pep8-indent'
 Plug 'ets-labs/python-vimrc'
 call plug#end()
 
@@ -79,3 +80,4 @@ set statusline=%F%m%r%h%w[%L][%{&ff}]%y[%p%%][%04l,%04v]
 "              | | +-- readonly flag in square brackets
 "              | +-- rodified flag in square brackets
 "              +-- full path to file in the buffer
+

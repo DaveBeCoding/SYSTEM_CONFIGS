@@ -32,9 +32,11 @@ Copy specific section of lines -> y[N]-1k == y1k
 
 
 						UNDO
-            [Normal mode] -> u | :u :un
+[Normal mode] -> u | :u :un
 
+:earlier &&  :later <undo>
 
+LOOK UP ->  :make && quickfix 
 
                        FILES
 

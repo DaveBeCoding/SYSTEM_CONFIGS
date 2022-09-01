@@ -1,4 +1,4 @@
 vim and tmux notes
 
 
-### https://www.vi-improved.org
+### https://www.vi-improved.org -> The Vim Way

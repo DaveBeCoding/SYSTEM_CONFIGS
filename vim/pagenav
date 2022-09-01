@@ -239,3 +239,17 @@ c% -> DELETE UP TO A POINT EX. FOO(GOO()) WILL LEAVE FOO()
 :split [file..] -> <c-w><c-s> && <c-w><c-v> -> <y-plane>
 
 :vsplit [file...] -> <x-plane>
+
+
+
+------------------------------------------
+				
+			FIND & REPLACE
+
+------------------------------------------
+
+Open the file in Vim
+Press slash (/) key along with the search term like “/ search_term” and press Enter. It will highlight the selected word.
+Then hit the keystroke cgn to replace the highlighted word and enter the replace_term
+Go back to normal mode. Next, hit “n” to move to the next occurrence of the search term.
+Then press the dot (.) if you want to replace the next occurrence with the same replace_term otherwise again press the “n” key to move to the next occurrence.

@@ -17,6 +17,11 @@ curl 'http://tinyurl.com/api-create.php?url=http://example.com/'
 
 http://tinyurl.com/kotu
 
+*************
+PREAPPEND TEXT-2-FILE
+cat example.md ~/Documents/Trilinos/Trilinos-src/Trilinos.fork/test_markdown/test_10.md > temp && mv temp ~/Documents/Trilinos/Trilinos-src/Trilinos.fork/test_markdown/test_10.md
+
+cat <source> [source/location/dir/file...] > [<T>] && mv [<T>] [source/location/dir/file...]
 
 
 				

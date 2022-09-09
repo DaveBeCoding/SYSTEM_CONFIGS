@@ -1,0 +1,26 @@
+command types -> File-> BuiltIn -> keyword -> Function -> Alias
+
+Getting help -> <type> -> <help> -> <apropos> -> <man> -> <info*>
+
+Return values [0...255] 0 == success ... 1 >= failure -> <$?> last cmd exe return value
+
+while read var1 var2 grabanddonothing
+do 
+  echo $var2 $var1 
+done
+
+list < file -> feed file to list as input
+
+[var] = ["string"..."string two"]
+
+PARAMETER EXAPANSION: STRING
+echo ${PATH#*:} -> echo everything up to : -> echo ${PATH##*:} goes to second match 
+echo ${PATH%*:} -> echo everything up to : from the right edge 
+
+array**
+
+$((math stuff))
+
+echo {1..5}{0,5} || echo {10..55..5}%
+
+declare -f <keyWord>

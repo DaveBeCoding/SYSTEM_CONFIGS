@@ -1,0 +1,15 @@
+# Trilinos Status Table
+|   Date    |PR Status|Number of PRs Merged|Number of Failed PRs|Number of PRs Waiting for Build & Test|Total Numbr of Open PRs|    MM Status     |Number of Successful Master Merges|Jira Ticket #|
+|-----------|---------|-------------------:|-------------------:|-------------------------------------:|----------------------:|------------------|---------------------------------:|-------------|
+|23 Aug 2022|:warning:|                   4|                   3|                                     6|                     64|:white_check_mark:|                                 0|TrilFrame-405|
+
+# Trilinos Status Table
+|   Date   |    PR Status     |                                                               Number of PRs Merged                                                                |      Number of Failed PRs       |Number of PRs Waiting for Build & Test|Total Numbr of Open PRs|    MM Status     |Number of Successful Master Merges|                Jira Ticket #                |
+|----------|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------|--------------------------------------|----------------------:|------------------|----------------------------------|---------------------------------------------|
+|3031-99-88|:white_check_mark:|[-1](https://github.com/trilinos/Trilinos/pulls?q=is%3Apr+merged%3A2022-08-31T12%3A00%3A00-07%3A00..2022-09-01T12%3A00%3A00-07%3A00+base%3Adevelop)|[3](https://tinyurl.com/2kd9ygc7)|[6](https://tinyurl.com/2kd9ygc7)     |                     64|:white_check_mark:|[0](https://tinyurl.com/2kd9ygc7) |[TrilFrame-423](https://tinyurl.com/2kd9ygc7)|
+
+# Trilinos Status Table
+|   Date   |    PR Status     |                                                               Number of PRs Merged                                                                |      Number of Failed PRs       |Number of PRs Waiting for Build & Test|Total Numbr of Open PRs|    MM Status     |Number of Successful Master Merges|                Jira Ticket #                |
+|----------|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------|--------------------------------------|----------------------:|------------------|----------------------------------|---------------------------------------------|
+|2022-09-01|:white_check_mark:|[-1](https://github.com/trilinos/Trilinos/pulls?q=is%3Apr+merged%3A2022-08-31T12%3A00%3A00-07%3A00..2022-09-01T12%3A00%3A00-07%3A00+base%3Adevelop)|[3](https://tinyurl.com/2kd9ygc7)|[6](https://tinyurl.com/2kd9ygc7)     |                     64|:white_check_mark:|[0](https://tinyurl.com/2kd9ygc7) |[TrilFrame-423](https://tinyurl.com/2kd9ygc7)|
+

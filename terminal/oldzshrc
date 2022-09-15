@@ -1,0 +1,12 @@
+alias python=python3
+alias pip=pip3
+alias zedit="vim ~/.zshrc"
+alias zsource=". ~/.zshrc"
+alias mreport="git log && git show"
+alias starterpack++="cp -R ~/STARTER_PACK/ ./"
+alias ll="ls -l"
+alias nw_run="node "
+alias trilssh="ssh-add -K"
+alias vimnotes="vim ~/Documents/src/configurations/SYSTEM_CONFIGS/vim/pagenav"
+
+PROMPT='%n .:. '

@@ -1,1 +1,12 @@
 git log --all --decorate --oneline --graph
+
+git log --graph --pretty="%C(yellow) Hash: %h %C(blue)Date: %ad %C(red) Message: %s " --date=human
+
+----------------------------------------------------------------------------------------------------
+git log --graph --pretty="%ad" --date=short
+
+git log --graph --pretty="%C(yellow) %s"
+
+git log --graph --pretty="%C(bold green) %(ar)"
+
+git log --graph --pretty="%C(bold blue)%h" --decorate --all

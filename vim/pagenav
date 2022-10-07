@@ -253,3 +253,12 @@ Press slash (/) key along with the search term like “/ search_term” and pres
 Then hit the keystroke cgn to replace the highlighted word and enter the replace_term
 Go back to normal mode. Next, hit “n” to move to the next occurrence of the search term.
 Then press the dot (.) if you want to replace the next occurrence with the same replace_term otherwise again press the “n” key to move to the next occurrence.
+
+
+
+
+
+Openning additional files for editing
+:e <file_name>.txt -> :e == edit
+
+

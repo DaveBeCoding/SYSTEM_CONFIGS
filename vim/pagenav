@@ -261,4 +261,4 @@ Then press the dot (.) if you want to replace the next occurrence with the same 
 Openning additional files for editing
 :e <file_name>.txt -> :e == edit
 
-
+ZZ -> <shift+Z> save changes in current file(s)

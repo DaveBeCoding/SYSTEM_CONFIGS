@@ -282,6 +282,14 @@ CTRL-W -/+
 
 :h window-resize
 
+:res | :resize 
+
+:res +5 -> Height <window>
+:res -5
+
+:vertical resize +5 -> Width <window>
+:vertical resize -5
+
 ------------------------------------------
 
              [NEW TITLE/TOPIC HERE]

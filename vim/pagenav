@@ -255,10 +255,35 @@ Go back to normal mode. Next, hit “n” to move to the next occurrence of the 
 Then press the dot (.) if you want to replace the next occurrence with the same replace_term otherwise again press the “n” key to move to the next occurrence.
 
 
+------------------------------------------
 
+             FIle(s) Editiing & Opening
+
+------------------------------------------
 
 
 Openning additional files for editing
 :e <file_name>.txt -> :e == edit
 
 ZZ -> <shift+Z> save changes in current file(s)
+
+
+------------------------------------------
+
+             Window(s) & Size
+
+------------------------------------------
+Change Window size(s)
+
+CTRL-W -/+
+
+:resize [+|-]N
+:vertical resize [+|-] -> vertical split
+
+:h window-resize
+
+------------------------------------------
+
+             [NEW TITLE/TOPIC HERE]
+
+------------------------------------------

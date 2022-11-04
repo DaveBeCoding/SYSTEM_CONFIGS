@@ -1,0 +1,6 @@
+docker run -p 5000:8888 jupyter/datascience-notebook:9b06df75e445
+
+
+---save env---
+
+docker run --rm -p 10000:8888 -e JUPYTER_ENABLE_LAB=yes -v "$PWD":/home/your_name/work jupyter/datascience-notebook:9b06df75e445

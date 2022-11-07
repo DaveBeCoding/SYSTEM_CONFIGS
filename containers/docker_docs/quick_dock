@@ -3,3 +3,8 @@ docker build .
 docker build -t imagename:Tag dirDockFile
 
 docker run image
+
+---enter container
+   -dcoker ps 
+   -docker exec -it <container_name> bash
+

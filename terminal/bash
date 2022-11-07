@@ -24,3 +24,5 @@ $((math stuff))
 echo {1..5}{0,5} || echo {10..55..5}%
 
 declare -f <keyWord>
+
+alias lynx='lynx -accept_all_cookies'

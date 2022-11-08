@@ -8,3 +8,6 @@ docker run image
    -dcoker ps 
    -docker exec -it <container_name> bash
 
+---create volume 
+   -docker -v main/host/os:container/dir/path 
+

@@ -11,3 +11,9 @@ docker run image
 ---create volume 
    -docker -v main/host/os:container/dir/path 
 
+---Jupyter
+   -docker pull <container_name>
+   -docker images -> get id
+   -docker run --rm -p 8888:8888 -v -$(pwd) <image id>
+   -localhost:<port>
+   -insert token-id

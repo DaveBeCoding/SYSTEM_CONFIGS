@@ -1,0 +1,70 @@
+  615  git commit -m "init dockerfile for ML container(s)"
+  658  sudo apt-get remove docker docker-engine docker.io containerd runc
+  666  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+  667  echo   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+  668    $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+  670  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+  671  sudo docker run hello-world
+  672  docker container 
+  673  docker container ls
+  674  sudo docker container ls
+  675  sudo docker run hello-world
+  676  docker ps
+  677  sudo groupadd docker
+  678  sudo usermod -aG docker $USER
+  679  newgrp docker
+  686  cd docker_docs/
+  688  cd dockerFiles/
+  721  cd ml_docker/
+  729  docker run -p 8888:8888 -v . 
+  736  docker build . 
+  737  docker run -it -p 8888:8888 -p 6006:6006     -d -v $(pwd)/notebooks:/notebooks     python_data_science_container:anaconda
+  739  docker run -it -p 8888:8888 -p 6006:6006 -d -v $(pwd)/notebooks:/notebooks     python_data_science_container:anaconda
+  742  docker build . 
+  743  docker build mldocker:0.1 . 
+  744  docker build --help
+  746  docker run -it -p 8888:8888 -p 6006:6006     -d -v $(pwd)/notebooks:/notebooks     python_data_science_container:anaconda
+  747  sudo docker run -it -p 8888:8888 -p 6006:6006     -d -v $(pwd)/notebooks:/notebooks     python_data_science_container:anaconda
+  748  docker run -it -p 8888:8888 -p 6006:6006     -d -v $(pwd)/notebooks:/notebooks     python_data_science_container:anaconda
+  749  docker pull continuumio/anaconda
+  750  sudo docker pull continuumio/anaconda
+  751  docker run -i -t continuumio/anaconda /bin/bash
+  752  sudo docker run -i -t continuumio/anaconda /bin/bash
+  753  docker run -i -t -p 8888:8888 continuumio/anaconda /bin/bash -c "/opt/conda/bin/conda install jupyter -y --quiet && mkdir /opt/notebooks && /opt/conda/bin/jupyter notebook --notebook-dir=/opt/notebooks --ip='*' --port=8888 --no-browser"
+  754  sudo docker run -i -t -p 8888:8888 continuumio/anaconda /bin/bash -c "/opt/conda/bin/conda install jupyter -y --quiet && mkdir /opt/notebooks && /opt/conda/bin/jupyter notebook --notebook-dir=/opt/notebooks --ip='*' --port=8888 --no-browser"
+  755  sudo docker run -i -t continuumio/anaconda /bin/bash
+  756  sudo docker run -p 5000:8888 jupyter/datascience-notebook:9b06df75e445
+  757  docker run --rm -p 10000:8888 -e JUPYTER_ENABLE_LAB=yes -v "$PWD":/home/your_name/work jupyter/datascience-notebook:9b06df75e445
+  758  sudo docker run --rm -p 10000:8888 -e JUPYTER_ENABLE_LAB=yes -v "$PWD":/home/your_name/work jupyter/datascience-notebook:9b06df75e445
+  763  cd ml_docker/
+  775  cd docker_docs/
+  777  cd dockerFiles/
+  791  cd ml_docker/
+  799  docker ps -a
+  800  sudo docker ps -a
+  802  docker run --rm -p 10000:8888 -e JUPYTER_ENABLE_LAB=yes -v "$PWD":/home/your_name/work jupyter/datascience-notebook:9b06df75e445
+  803  sudo usermod -aG docker $USER
+  815  docker ps -a
+  817  docker run --rm -p 10000:8888 -e JUPYTER_ENABLE_LAB=yes -v "$PWD":/home/your_name/work jupyter/datascience-notebook:9b06df75e445
+  818  sudo docker run -p 5000:8888 jupyter/datascience-notebook:9b06df75e445
+  822  cd ml_docker/
+  827  docker ps -a
+  828  docker run jupyter/datascience-notebook:9b06df75e445
+  829  sudo docker run jupyter/datascience-notebook:9b06df75e445
+  830  sudo docker run -p 5000:8888 jupyter/datascience-notebook:9b06df75e445
+  837  cd docker_docs/
+  839  cd dockerFiles/
+  846  docker pull jupyter/datascience-notebook~
+  847  docker pull jupyter/datascience-notebook
+  850  docker ps
+  851  docker container ls
+  852  docker ps -a
+  853  docker run jupyter/datascience-notebook
+  854  docker ps -aq | xargs docker stop | xargs docker rm
+  855  docker ps -a
+  857  docker ps -a
+  858  docker run -p 8888:8888 -v $(pwd):/home/jovyan/work jupyter/scipy-notebook
+  862  cd ml_docker/
+  868  docker run -p 8888:8888 -v $(pwd):/home/jovyan/work jupyter/datascience-notebook
+  869  docker run -p 8888:8888 -v $(pwd):/home/jovyan/work tensorflow/tensorflow 
+  870  docker run -p 8888:8888 tensorflow/tensorflow:nightly-jupyter 

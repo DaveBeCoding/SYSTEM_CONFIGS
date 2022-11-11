@@ -17,3 +17,7 @@ docker run image
    -docker run --rm -p 8888:8888 -v -$(pwd) <image id>
    -localhost:<port>
    -insert token-id
+---Jupyter-02
+   -docker run -it -p <porthost>:<portcontainer> -v <host/dir>:<container/dir> --rm --name <name_container> <container/name>
+   -docker ps -a
+   -docker stop <xxxx>

@@ -21,3 +21,6 @@ docker run image
    -docker run -it -p <porthost>:<portcontainer> -v <host/dir>:<container/dir> --rm --name <name_container> <container/name>
    -docker ps -a
    -docker stop <xxxx>
+---Network Docker
+   -Jupyter notebook stop <xxxx>
+   ->check: ss -plnt

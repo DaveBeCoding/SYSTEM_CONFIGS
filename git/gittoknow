@@ -10,3 +10,15 @@ git log --graph --pretty="%C(yellow) %s"
 git log --graph --pretty="%C(bold green) %(ar)"
 
 git log --graph --pretty="%C(bold blue)%h" --decorate --all
+
+**ERROR: FAILED TO PUSH SOME REFS TO REMOTE**
+  -git pull --rebase
+  -git push
+
+  *full syntax
+  -git pull --rebase origin main
+  -git push origin main
+
+  *other 
+  -git config --global pull.rebase true
+  -git config --global rebase.autoStash true

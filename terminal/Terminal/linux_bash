@@ -109,3 +109,89 @@ set statusline=%F%m%r%h%w[%L][%{&ff}]%y[%p%%][%04l,%04v]
 "              | +-- rodified flag in square brackets
 "              +-- full path to file in the buffer
 
+
+
+" ~
+
+
+
+set exrc
+set secure
+set number
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set noexpandtab
+set hlsearch
+set incsearch
+set ignorecase 
+set smartcase
+set autoindent
+set titlestring=%t
+set title
+set expandtab
+set shiftwidth=4
+set cursorline
+set showmatch
+
+let python_highlight_all = 1
+
+call plug#begin('~/.vim/plugged')
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'preservim/nerdtree', { 'on': 'NERDTreeToggle' }
+Plug 'Vimjas/vim-python-pep8-indent'
+Plug 'ets-labs/python-vimrc'
+Plug 'bluz71/vim-nightfly-colors' | "color scheme"
+call plug#end()
+
+
+" set termguicolors | "Use the right colors 
+" let g:lightline = { 'colorscheme': 'nightfly' }
+" let g:nightflyCursorColor = 1
+" let g:nightflyUnderlineMatchParen = 1  
+" colorscheme nightfly
+
+let g:lightline = { 'colorscheme': 'nightfly' }
+
+
+map <c-j> :call JsBeautify()<cr>
+
+" Nerd tree
+nnoremap <leader>n :NERDTreeFocus<CR>
+nnoremap <C-n> :NERDTree<CR>
+nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <C-f> :NERDTreeFind<CR>
+
+" Code completion 
+inoremap <silent><expr> <TAB>
+      \ coc#pum#visible() ? coc#pum#next(1):
+      \ CheckBackspace() ? "\<Tab>" :
+      \ coc#refresh()
+inoremap <expr><S-TAB> coc#pum#visible() ? coc#pum#prev(1) : "\<C-h>"
+
+" set pymode to python3
+let g:pymode_python = 'python3'
+
+" highlighting searchs
+set incsearch
+set nohlsearch
+nnoremap <c-h> :set hlsearch!<cr>
+
+" window movement
+set nocompatible 
+set wildmenu
+
+set statusline=%F%m%r%h%w[%L][%{&ff}]%y[%p%%][%04l,%04v]
+"              | | | | |  |   |      |  |     |    |
+"              | | | | |  |   |      |  |     |    +-- current column
+"              | | | | |  |   |      |  |     +-- current line
+"              | | | | |  |   |      |  +-- current % into file
+"              | | | | |  |   |      +-- current syntax
+"              | | | | |  |   +-- current fileformat
+"              | | | | |  +-- number of lines
+"              | | | | +-- preview flag in square brackets
+"              | | | +-- help flag in square brackets
+"              | | +-- readonly flag in square brackets
+"              | +-- rodified flag in square brackets
+"              +-- full path to file in the buffer
+

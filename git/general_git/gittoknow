@@ -40,4 +40,5 @@ lg = lg1
 
 
 :: Correct commit -m - git commit --amend -m "new smg"
-    
+
+:: git log --graph --oneline --decorate 

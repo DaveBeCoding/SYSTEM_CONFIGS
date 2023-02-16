@@ -1,42 +1,44 @@
+inoremap kj <Esc>
+cnoremap kj <Esc>
+
 set exrc
 set secure
-
 set number
-
-
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 set noexpandtab
-
 set hlsearch
 set incsearch
-
 set ignorecase 
 set smartcase
-
 set autoindent
-
-
-syntax on
-colorscheme desert
-
 set titlestring=%t
 set title
-" color evening
-" set background=dark
-" https://linuxhint.com/important_vim_settings/
+set expandtab
+set shiftwidth=4
+set cursorline
+set showmatch
 
-" PLUGIN(s)
+let python_highlight_all=1
+
 call plug#begin('~/.vim/plugged')
-
-Plug 'maksimr/vim-jsbeautify'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'preservim/nerdtree', { 'on': 'NERDTreeToggle' }
-" Plug 'python-mode/python-mode'
 Plug 'Vimjas/vim-python-pep8-indent'
 Plug 'ets-labs/python-vimrc'
+Plug 'bluz71/vim-nightfly-colors' | "color scheme"
 call plug#end()
+
+
+" set termguicolors | "Use the right colors 
+" let g:lightline = { 'colorscheme': 'nightfly' }
+" let g:nightflyCursorColor = 1
+" let g:nightflyUnderlineMatchParen = 1  
+" colorscheme nightfly
+
+let g:lightline={'colorscheme':'nightfly'}
+
 
 map <c-j> :call JsBeautify()<cr>
 
@@ -54,9 +56,7 @@ inoremap <silent><expr> <TAB>
 inoremap <expr><S-TAB> coc#pum#visible() ? coc#pum#prev(1) : "\<C-h>"
 
 " set pymode to python3
-let g:pymode_python = 'python3'
-
-
+let g:pymode_python='python3'
 
 " highlighting searchs
 set incsearch
@@ -81,3 +81,4 @@ set statusline=%F%m%r%h%w[%L][%{&ff}]%y[%p%%][%04l,%04v]
 "              | +-- rodified flag in square brackets
 "              +-- full path to file in the buffer
 
+" esc in insert & visual mode
